@@ -5,7 +5,7 @@ namespace clase1
     public class Movement : MonoBehaviour
     {
         [Header("Movement")]
-        public float speed = 0.001f;
+        public float speed = 0.1f;
         [SerializeField] private KeyCode keyUp = KeyCode.W;
         [SerializeField] private KeyCode keyDown = KeyCode.S;
         [SerializeField] private KeyCode keyLeft = KeyCode.A;
@@ -73,7 +73,7 @@ namespace clase1
         private void Move()
         {
             Vector3 position = transform.position;
-            var deltaTimeRegulation = Time.deltaTime * 10;
+            var deltaTimeRegulation = Time.deltaTime * 100;
 
             if (Input.GetKey(keyUp))
             {
