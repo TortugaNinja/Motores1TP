@@ -1,0 +1,1275 @@
+fileFormatVersion: 2
+guid: 10ebf2133299c074784b6529afb03d27
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_0"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 534
+        width: 316
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c462181eff7483444930d28fd21d669e
+      internalID: 1928785178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_1"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 346
+        width: 302
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e61cbe756ce77247b68a4b36ad4f718
+      internalID: -1009672241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_2"
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 508
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403d3402f6bd69b4ab0a6c8a1fb54844
+      internalID: 187958544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_3"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 482
+        width: 116
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 19, y: 15, z: 20, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a9e9a8a59f154ca9b877dcb0684d9
+      internalID: -556179506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_4"
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 441
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3719c413f9e489c4ea6c1ce9135e40b2
+      internalID: -431802881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_5"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 415
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5056bc652dc764c84884f96cc0dc80
+      internalID: -1646979043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_6"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 415
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123af015d97f77c48a4a8696cc9d0e20
+      internalID: -1499080524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_7"
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 415
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3b875422d07b64d9c4516a564a90a4
+      internalID: 1902597625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_8"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 415
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2c78a594d0af4488e25ab603fea0c8
+      internalID: -1721043461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_9"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 415
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70d7fdecdf55f241aa6706f2116ed91
+      internalID: 1694516261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_10"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 415
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaedda604444591468642b88c8219bfa
+      internalID: -448707708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_11"
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 402
+        width: 75
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d2e2ce634ec844b98c26e41f481d4a
+      internalID: 394393493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_12"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 350
+        width: 153
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c819296702f67304d826ce4e11b1356b
+      internalID: 103043868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_13"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 350
+        width: 154
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18bb03055273c04e82eab518316267b
+      internalID: -1390078377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_14"
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 346
+        width: 80
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87eae0bf1d1cc8478c062da8cf8d84f
+      internalID: 1605471010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_15"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 284
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab27133d54487d4c86b93d8f9b3f380
+      internalID: -469907500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_16"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 284
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47e74e08c204664190fd9907f7643ca
+      internalID: 723964032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_17"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 284
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cfbbe5b08233d4daa217fa6e51367b
+      internalID: -1249998377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_18"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 284
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c0618abb61ef145afad1997735f067
+      internalID: -976343823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_19"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 284
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c890746af46b174da9a559e91b09625
+      internalID: 226498525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_20"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 283
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2223e25d98e5b41a749b80ab8ed537
+      internalID: 1457797526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_21"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 228
+        width: 48
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a2dcb4e19e7f24bb0d7436bfefe771
+      internalID: -508232893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_22"
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 173
+        width: 140
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc3b4535e64114c9e8347293657973
+      internalID: -702346259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_23"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 285
+        width: 98
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d88b1f13bef1134b9c6dc38197928f4
+      internalID: 1220108283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_24"
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 285
+        width: 99
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316c96802c3669f49b18a7f6d968414c
+      internalID: 1846829045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_25"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 228
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70971e3008d4484c87cbf6be7d1dd68
+      internalID: 2048201520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_26"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 228
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a571aac1470d1e48abc5061bbb2e392
+      internalID: -906210989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_27"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 228
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1c2f6e565da244e8c3c488ffa79e55
+      internalID: -1723235391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_28"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 228
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a202626d126d94da273a29b3cda869
+      internalID: -334144524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_29"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 228
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f093299a2349dfd40b95073610512714
+      internalID: -1522195032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_30"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 228
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bc6bd4d09ab7e4c9344a4afc462eee
+      internalID: 1493259707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_31"
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 194
+        width: 167
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b189e119565364aaca331cfee7bf5b
+      internalID: 1555065180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_32"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 174
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a16e382819cb54792519515febecc1
+      internalID: -280788129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_33"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 174
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2b7fe3b1f23d429a82c7a7d087611
+      internalID: -263481686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_34"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 174
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3148d3917733d384495067d294346847
+      internalID: 1952685005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_35"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 174
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a21a12adb5dd1c4a9387e4df4409c45
+      internalID: -148617331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_36"
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 174
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1716288ff9c62624b9ce650fc1edc2fa
+      internalID: -1012217167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_37"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 173
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cef8daa0bae62e40b3e5f48cdd29c65
+      internalID: -2123755383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_38"
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 174
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e22146b5a45f747906dd6b3c5b3080
+      internalID: -1411489020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_39"
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 143
+        width: 147
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245cca2a8411c934eb0b6059bde4d6ad
+      internalID: -928949857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_40"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 119
+        width: 145
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945dfadb0245b8344bd310425d5a6f2f
+      internalID: -1044331084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_41"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 119
+        width: 146
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4beefb8a94bd74dafa3d73a155c7da
+      internalID: 186200670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_42"
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 118
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f8da404a78e99499517ec7677d635e
+      internalID: 76924350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_43"
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 22
+        width: 197
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab50edd92fd26f74a942aedf4982e133
+      internalID: -1562222906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_44"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 22
+        width: 152
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec76903056900514b883de9ce47b5883
+      internalID: 1271158146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_45"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 22
+        width: 123
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74828206ccb46340a204a9751671731
+      internalID: 1901965615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_46"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 34
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ad9b4322b49a745bf4c64f265737a1
+      internalID: -1852009417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_47"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 34
+        width: 130
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a20263f9be37cf468178a0d34d9f0e0
+      internalID: -620260391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_48"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 478
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 8, y: 16, z: 11, w: 13}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d4ec0996847534590128ef9e765102
+      internalID: 974471377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_49"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 480
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 10, y: 16, z: 12, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9f922d36ce0794eb72034aaaa0b1f3
+      internalID: 1474176433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_50"
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 481
+        width: 115
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 14, y: 13, z: 18, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb55b5e1a293be744afc2f510144df23
+      internalID: -780505219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_0": 1928785178
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_1": -1009672241
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_10": -448707708
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_11": 394393493
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_12": 103043868
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_13": -1390078377
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_14": 1605471010
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_15": -469907500
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_16": 723964032
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_17": -1249998377
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_18": -976343823
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_19": 226498525
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_2": 187958544
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_20": 1457797526
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_21": -508232893
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_22": -702346259
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_23": 1220108283
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_24": 1846829045
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_25": 2048201520
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_26": -906210989
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_27": -1723235391
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_28": -334144524
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_29": -1522195032
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_3": -556179506
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_30": 1493259707
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_31": 1555065180
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_32": -280788129
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_33": -263481686
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_34": 1952685005
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_35": -148617331
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_36": -1012217167
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_37": -2123755383
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_38": -1411489020
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_39": -928949857
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_4": -431802881
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_40": -1044331084
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_41": 186200670
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_42": 76924350
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_43": -1562222906
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_44": 1271158146
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_45": 1901965615
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_46": -1852009417
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_47": -620260391
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_48": 974471377
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_49": 1474176433
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_5": -1646979043
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_50": -780505219
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_6": -1499080524
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_7": 1902597625
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_8": -1721043461
+      "boutons-en-bois-dessin-interface-jeu-ui-\xE9l\xE9ments-de-gui-avec-texture-menu-d-options-barres-et-curseurs-utilisateur-ic\xF4nes-254270814_9": 1694516261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

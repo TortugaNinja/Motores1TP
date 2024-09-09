@@ -1,6 +1,7 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using clase1;
+/*using clase1;*/
 
 namespace UiMainMenu
 {
@@ -22,11 +23,19 @@ namespace UiMainMenu
 
         [SerializeField] private Slider sliderSpeedPlayer1;
         [SerializeField] private Slider sliderSpeedPlayer2;
+        [SerializeField] private Slider sliderSizeXPlayer1;
+        [SerializeField] private Slider sliderSizeXPlayer2;
 
-        [SerializeField] private Movement movementP1;
-        [SerializeField] private Movement movementP2;
+        /*[SerializeField] private Movement movementP1;
+        [SerializeField] private Movement movementP2;*/
+
+        [SerializeField] private PaddleMovement paddle1Movement;
+        [SerializeField] private PaddleMovement paddle2Movement;
+        [SerializeField] private PaddleSizeAndColour paddle1;
+        [SerializeField] private PaddleSizeAndColour paddle2;
 
 
+        [SerializeField] private BallMovement ballMovement;
 
         public KeyCode Esc;
         private void Awake()
@@ -36,8 +45,12 @@ namespace UiMainMenu
             settingsBackButton.onClick.AddListener(OnBackToMainMenuButtonClicked);
             creditsButton.onClick.AddListener(OnCreditsButtonClicked);
             exitButton.onClick.AddListener(OnExitButtonClicked);
-            sliderSpeedPlayer1.onValueChanged.AddListener(OnP1SpeedChange);
-            sliderSpeedPlayer2.onValueChanged.AddListener(OnP2SpeedChange);
+            /*sliderSpeedPlayer1.onValueChanged.AddListener(OnP1SpeedChange);
+            sliderSpeedPlayer2.onValueChanged.AddListener(OnP2SpeedChange);*/
+            sliderSpeedPlayer1.onValueChanged.AddListener(OnPaddle1SpeedChange);
+            sliderSpeedPlayer2.onValueChanged.AddListener(OnPaddle2SpeedChange);
+            sliderSizeXPlayer1.onValueChanged.AddListener(OnPaddle1XSizeChange);
+            sliderSizeXPlayer2.onValueChanged.AddListener(OnPaddle2XSizeChange);
             mainMenuPanel.SetActive(true);
             settingsPanel.SetActive(false);
             creditsPanel.SetActive(false);
@@ -50,6 +63,14 @@ namespace UiMainMenu
             OnEsc();
         }
 
+        public void OnTriggerEnter()
+        {
+            GameManager player1Score = gameObject.GetComponent<GameManager>();
+            GameManager player2Score = gameObject.GetComponent<GameManager>();
+
+
+        }
+
         private void OnDestroy()
         {
             playButton.onClick.RemoveAllListeners();
@@ -59,8 +80,9 @@ namespace UiMainMenu
             exitButton.onClick.RemoveAllListeners();
             sliderSpeedPlayer1.onValueChanged.RemoveAllListeners();
             sliderSpeedPlayer2.onValueChanged.RemoveAllListeners();
+            sliderSizeXPlayer1.onValueChanged.RemoveAllListeners();
+            sliderSizeXPlayer2.onValueChanged.RemoveAllListeners();
         }
-
         private void OnPlayButtonClicked()
         {
             mainMenuPanel.SetActive(false);
@@ -69,6 +91,8 @@ namespace UiMainMenu
             creditsPanel.SetActive(false);
             settingsP1.SetActive(false);
             settingsP2.SetActive(false);
+
+
 
             Debug.Log("Play Button Clicked");
         }
@@ -81,6 +105,7 @@ namespace UiMainMenu
             settingsP1.SetActive(true);
             settingsP2.SetActive(true);
             creditsPanel.SetActive(false);
+
             Debug.Log("Settings Button Clicked");
         }
 
@@ -92,9 +117,10 @@ namespace UiMainMenu
             settingsP1.SetActive(false);
             settingsP2.SetActive(false);
             creditsPanel.SetActive(false);
+
         }
 
-       
+
         private void OnCreditsButtonClicked()
         {
             mainMenuPanel.SetActive(false);
@@ -103,6 +129,7 @@ namespace UiMainMenu
             settingsP1.SetActive(false);
             settingsP2.SetActive(false);
             creditsPanel.SetActive(true);
+
             Debug.Log("Credits Button Clicked");
         }
 
@@ -127,12 +154,13 @@ namespace UiMainMenu
                 creditsPanel.SetActive(false);
                 settingsP1.SetActive(false);
                 settingsP2.SetActive(false);
+
             }
-          
+
             Debug.Log("Esc Key");
         }
 
-        private void OnP1SpeedChange(float newSpeed)
+        /*private void OnP1SpeedChange(float newSpeed)
         {
             newSpeed = sliderSpeedPlayer1.value;
             movementP1.SetMovementSpeed(newSpeed);
@@ -142,7 +170,30 @@ namespace UiMainMenu
         {
             newSpeed = sliderSpeedPlayer2.value;
             movementP2.SetMovementSpeed(newSpeed);
+        }*/
+
+        private void OnPaddle1SpeedChange(float newSpeed)
+        {
+            newSpeed = sliderSpeedPlayer1.value;
+            paddle1Movement.SetMovementSpeed(newSpeed);
         }
 
+        private void OnPaddle2SpeedChange(float newSpeed)
+        {
+            newSpeed = sliderSpeedPlayer2.value;
+            paddle2Movement.SetMovementSpeed(newSpeed);
+        }
+
+        private void OnPaddle1XSizeChange(float newXScale)
+        {
+            newXScale = sliderSizeXPlayer1.value;
+            paddle1.SetPaddleHeight(newXScale);
+        }
+
+        private void OnPaddle2XSizeChange(float newXScale)
+        {
+            newXScale = sliderSizeXPlayer2.value;
+            paddle2.SetPaddleHeight(newXScale);
+        }
     }
 }
