@@ -186,13 +186,11 @@ namespace UiMainMenu
 
         private void OnPaddle1XSizeChange(float newXScale)
         {
-            newXScale = sliderSizeXPlayer1.value;
             paddle1.SetPaddleHeight(newXScale);
         }
 
         private void OnPaddle2XSizeChange(float newXScale)
         {
-            newXScale = sliderSizeXPlayer2.value;
             paddle2.SetPaddleHeight(newXScale);
         }
     }
