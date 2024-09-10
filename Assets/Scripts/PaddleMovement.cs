@@ -8,12 +8,12 @@ public class PaddleMovement : MonoBehaviour
     [SerializeField] private KeyCode keyDown = KeyCode.S;
 
     private SpriteRenderer spriteRenderer;
-    private Rigidbody2D paddle;
+    private Rigidbody2D rigidbody;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        paddle = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -35,21 +35,19 @@ public class PaddleMovement : MonoBehaviour
     }
     private void Move()
     {
-        Vector3 position = transform.position;
         float deltaTimeRegulation = Time.deltaTime * 100;
 
         if (Input.GetKey(keyUp))
         {
-            position.y += speed * deltaTimeRegulation;
+            rigidbody.AddForce(Vector2.up * deltaTimeRegulation * speed, ForceMode2D.Impulse);
             Debug.Log("keyUp");
         }
 
         if (Input.GetKey(keyDown))
         {
-            position.y -= speed * deltaTimeRegulation;
+            rigidbody.AddForce(Vector2.down * deltaTimeRegulation * speed, ForceMode2D.Impulse);
             Debug.Log("keyDown");
         }
 
-        transform.position = position;
     }
 }
